@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>ACCOUNT DETAILS</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter you name"> <br><br>
+            <input type="text" placeholder="Enter your Account number"> 
+            <h3>
+                Account Type
+            </h3>
+
+            <label for="accType1">
+                <input type="radio" value="sav" name="accT" id="accType1">Savings
+            </label>
+
+            <label for="accType2">
+                <input type="radio" value="curr" name="accT" id="accType2">Current
+            </label>
+
+            <label for="accType3">
+                <input type="radio" value="dep" name="accT" id="accType3">Deposit
+            </label>
+            <br><br>
+            Are you 18+?<input type="checkbox" name = "verify" id="verif">
+            <br><br>
+            Enter acc creating date <br>
+            <input type="date" name = "dt" id = "DT">
+            <br><br>
+
+            <textarea name="PROBLEM" id="prob" cols="30" rows="10" placeholder="Explain your problem"></textarea>
+            
+
+
+        </form>
+    </div>
+</body>
+
+</html>
