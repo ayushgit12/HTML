@@ -12,10 +12,10 @@
         <h1>ACCOUNT DETAILS</h1>
         <form action="form.php">
             <input type="text" placeholder="Enter you name"> <br><br>
-            <input type="text" placeholder="Enter your Account number"> 
-            <h3>
+            <input type="text" placeholder="Enter your Account number">
+            <h4>
                 Account Type
-            </h3>
+            </h4>
 
             <label for="accType1">
                 <input type="radio" value="sav" name="accT" id="accType1">Savings
@@ -26,17 +26,35 @@
             </label>
 
             <label for="accType3">
-                <input type="radio" value="dep" name="accT" id="accType3">Deposit
+                <input type="radio" value="dep" name="accT" id="accType3" >Deposit
             </label>
             <br><br>
-            Are you 18+?<input type="checkbox" name = "verify" id="verif">
+
+            <label for="age" type="checkbox">
+                Are you 18+?<input type="checkbox" value="Age" name="verify" id="age">
+            </label>
             <br><br>
-            Enter acc creating date <br>
-            <input type="date" name = "dt" id = "DT">
+            Enter acc creating date: <br>
+            <input type="date" name="dt" id="DT">
             <br><br>
 
             <textarea name="PROBLEM" id="prob" cols="30" rows="10" placeholder="Explain your problem"></textarea>
+            <br><br>
+            Select your religion:
+            <select name="Religion" id="religion">
+                <option value="r1">Hindu</option>
+                <option value="r2">Muslim</option>
+                <option value="r3">Christian</option>
+                <option value="r4">Bengali</option>
+            </select>
+            <br><br>
+            <h4>
+                WATCH THIS VIDEO TO EARN CRORES!!
+            </h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>">
+
             
+
 
 
         </form>
